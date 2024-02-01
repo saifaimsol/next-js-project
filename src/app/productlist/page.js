@@ -37,7 +37,7 @@ export default function Page() {
         <div className='flex justify-between flex-wrap gap-6' >
             
             {product.map((item) => (
-                <div className='flex  flex-col items-center  w-full max-w-96 m-auto  bg-slate-200 rounded-md py-8 hover:bg-red-50 cursor-pointer'>
+                <div key={item.id} className='flex  flex-col items-center  w-full max-w-96 m-auto  bg-slate-200 rounded-md py-8 hover:bg-red-50 cursor-pointer'>
                  <p className=' text-lg text-gray-500 font-semibold'>{item.title}</p>
                 <img src={item.images[0]} width={400} height={500}  className='w-full max-w-52 rounded-sm gap-4 py-4'/>
                 </div>
