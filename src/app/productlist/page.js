@@ -2,7 +2,7 @@
 "use client"
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-export default function Home() {
+export default function Page() {
     // Use state to store the fetched data
     const [data, setData] = useState(null);
     const [product, setProduct] = useState([])

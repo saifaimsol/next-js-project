@@ -6,11 +6,11 @@ export default function stdlist(){
         <div>
             <ul>
                 <li>
-                <Link href="/studentslist/haris"> haris</Link>    
+                <Link href="/studentslist/haris"> haris : click on get value in next page</Link>    
                 </li>
-                <li><Link href="/studentslist/hamza"> hamza</Link>    </li>
-                <li><Link href="/studentslist/noman"> noman</Link>    </li>
-                <li><Link href="/studentslist/touseef"> touseef</Link>    </li>
+                <li><Link href="/studentslist/hamza"> hamza : click on get value in next page</Link>    </li>
+                <li><Link href="/studentslist/noman"> noman : click on get value in next page</Link>    </li>
+                <li><Link href="/studentslist/touseef"> touseef : click on get value in next page</Link>    </li>
             </ul>
         </div>
     )
